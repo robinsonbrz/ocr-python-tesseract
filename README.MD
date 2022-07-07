@@ -1,5 +1,5 @@
-# Título do Projeto
-##  Breve descrição do projeto
+# OCR Tesseract Python
+##  OpenCV Tesseract text converssion
 
 <br>
   <div align="center">
@@ -29,18 +29,23 @@ Visite meu WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
   <br><br><br>
 
 ## Objetivo:
-
-Lista dos objetivos
-
-
-
-# Próximas features 
-
-
-## Utilização do programa 
-
+### Ler imagens e converter em texto
 <br>
-_______________________
+
+### corrigir instalação windows: https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i
+<br>
+
+## É necessário instalar o Tesseract no Windows
+### Windows instalar tesseract https://github.com/UB-Mannheim/tesseract/wiki
+<br>
+
+### instalar outra língua: https://github.com/tesseract-ocr/tessdata
+### baixar o arquivo por.**** e colar na pasta do tesseract
+<br>
+
+### Exibir linguas instaladas linguas: print(pytesseract.get_languages())
+
+
 
 
 <br>
