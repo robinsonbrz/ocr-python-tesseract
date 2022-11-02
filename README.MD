@@ -39,13 +39,17 @@ Visite meu WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
 ### Windows instalar tesseract https://github.com/UB-Mannheim/tesseract/wiki
 <br>
 
-### instalar outra língua: https://github.com/tesseract-ocr/tessdata
-### baixar o arquivo por.**** e colar na pasta do tesseract
+### Para o interpretador interpretar a língua portuguesa baixe o arquivo no link abaixo
+Instalar outra língua: https://github.com/tesseract-ocr/tessdata
+## baixar o arquivo por.traineddata e colar na pasta do tesseract
 <br>
 
-### Exibir linguas instaladas linguas: print(pytesseract.get_languages())
+Exibir linguagens instaladas linguas: 
+```
+print(pytesseract.get_languages())
+```
 
-
+#### Para ler a imagem e converter em texto coloque o caminho e nome do arquivo a ler na varável imagem no arquivo ocr.py
 
 
 <br>
